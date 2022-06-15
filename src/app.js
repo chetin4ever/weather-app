@@ -3,6 +3,7 @@ const express = require("express")
 const hbs = require("hbs")
 const geoCode = require("./utils/geoCode")
 const forecast = require("./utils/forecast")
+const port = process.env.PORT || 3000
 
 const app = express()
 // html page templating using hbs
@@ -65,6 +66,6 @@ app.get("/about", (req, res) => {
     name: "chetan mahajan",
   })
 })
-app.listen(3000, () => {
-  console.log("server is running on port 3000")
+app.listen(port, () => {
+  console.log("server is running on port:", port)
 })
