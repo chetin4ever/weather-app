@@ -1,0 +1,115 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    font-size: 1.5rem;
+    background: #333;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+nav .link-list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+nav .link-list a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav .link-list li {
+    margin-right: 10px;
+
+}
+
+nav .link-list li:hover {
+    border-bottom: 2px solid wheat;
+}
+
+nav .brand {
+    font-size: 2rem;
+}
+
+footer {
+    background: #333;
+    max-width: 650px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 0 20px;
+    justify-content: center;
+
+}
+
+.form {
+    max-width: 650px;
+    margin: 0 auto;
+    height: 25vh;
+    background: #777;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form .form-input .search-input,
+.search {
+    align-self: flex-start;
+    margin: 20px 0;
+
+}
+
+.form .form-input .search-input {
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.form .form-input .search {
+    padding: 10px;
+    width: 15%;
+    border: none;
+    color: white;
+    background: #333;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.form .form-input .search-input:focus {
+    outline: none;
+}
+
+.form .form-input {
+    width: 100%;
+    text-align: center;
+}
+
+.form .data p {
+    color: white;
+}
